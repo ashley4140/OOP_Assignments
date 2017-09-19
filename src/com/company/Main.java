@@ -23,11 +23,13 @@ public class Main {
 
         System.out.print("\n\nHow many KM are you cycling?");
         totalPrice = input.nextDouble();
-        if (km <=10)
+        
+
+        if (km <=10){
             totalPrice =km*c1;
-            System.out.print("\n\nYour total rate is:"+totalPrice);
-        else (km >10)
+            System.out.print("\n\nYour total rate is:"+totalPrice);}
+        else if (km >10){
             totalPrice =km*c2;
-            System.out.print("\n\nYour total rate is:"+totalPrice);
+            System.out.print("\n\nYour total rate is:"+totalPrice);}
     }
 }
