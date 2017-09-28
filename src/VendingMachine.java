@@ -33,7 +33,7 @@ public class VendingMachine {
             can--;
         }
         else
-            System.out.println("Sorry .... no cans left in machine!!!!");
+            System.out.println("Sorry! Your Too Late! Were Out Of Cans");
 
 
 
@@ -54,14 +54,14 @@ public class VendingMachine {
         System.out.println(v1);
         v1.addToken();
         System.out.println(v1);
-        v1.setCan(3);
-        v1.fillUp(10);
+        v1.setCan(1);
+        v1.fillUp(50);
         v1.addToken();
         v1.addToken();
         v1.addToken();
         System.out.println(v1);
         v1.addToken();
-        
+
 
 
     }
